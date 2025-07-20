@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Estratégico - Venture de Consultoria (Dados & Agile)</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: #f0f2f5;
+            color: #1c1e21;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .mindmap-container {
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 24px;
+            max-width: 1200px;
+            width: 100%;
+        }
+        h1 {
+            text-align: center;
+            color: #0d1117;
+            margin-bottom: 24px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .branch {
+            background-color: #f7f7f7;
+            border: 1px solid #e1e4e8;
+            border-radius: 8px;
+            padding: 16px;
+        }
+        .branch h2 {
+            font-size: 1.1em;
+            color: #0366d6;
+            margin-top: 0;
+            border-bottom: 2px solid #0366d6;
+            padding-bottom: 8px;
+            margin-bottom: 12px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            padding: 4px 0;
+        }
+        .sub-branch {
+            margin-top: 10px;
+        }
+        .sub-branch h3 {
+            font-size: 1em;
+            margin-bottom: 8px;
+            color: #24292e;
+        }
+        .sub-branch ul {
+            padding-left: 15px;
+            border-left: 2px solid #d1d5da;
+        }
+        .sub-branch li {
+            font-size: 0.95em;
+        }
+        #primeiros-passos {
+            background-color: #fffbdd;
+            border-color: #f1e05a;
+        }
+        #primeiros-passos h2 {
+            color: #b08800;
+            border-color: #b08800;
+        }
+    </style>
+</head>
+<body>
+    <div class="mindmap-container">
+        <h1>Venture de Consultoria (Dados & Agile)</h1>
+        <div class="grid">
+            <div class="branch">
+                <h2>Proposta de Valor</h2>
+                <ul>
+                    <li>- Diferencial Competitivo</li>
+                    <li>- Solução de Problemas Únicos</li>
+                </ul>
+            </div>
+            <div class="branch">
+                <h2>Cliente Ideal</h2>
+                <ul>
+                    <li>- Clientes de Consultoria</li>
+                    <li>- Alunos da Academia</li>
+                </ul>
+            </div>
+            <div class="branch" id="primeiros-passos">
+                <h2>Primeiros Passos</h2>
+                <ul>
+                    <li>- Ação Imediata 1</li>
+                    <li>- Ação Imediata 2</li>
+                    <li>- Ação Imediata 3</li>
+                </ul>
+            </div>
+            <div class="branch">
+                <h2>Serviços Oferecidos</h2>
+                <div class="sub-branch">
+                    <h3>Consultoria e Desenvolvimento Direto</h3>
+                    <ul>
+                        <li>- Desenvolvimento Web (Sites, LPs, E-commerce)</li>
+                        <li>- Automatizações de Processos</li>
+                        <li>- Estratégia de SEO e Performance Digital</li>
+                    </ul>
+                </div>
+                <div class="sub-branch">
+                    <h3>Treinamentos e Educação</h3>
+                    <ul>
+                        <li>- Modelo Academy (Escalável)</li>
+                        <li>- Modelo In-Company (Corporativo)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="branch">
+                <h2>Minhas Contribuições (Estratégia & Capacitação)</h2>
+                <div class="sub-branch">
+                    <h3>Consultoria Estratégica</h3>
+                    <ul>
+                        <li>- Eficiência Operacional</li>
+                        <li>- Gestão de Resultados (OKRs)</li>
+                        <li>- Gestão da Mudança</li>
+                        <li>- Aceleração de Resultados (Agile)</li>
+                        <li>- Governança de Produtos e Projetos</li>
+                    </ul>
+                </div>
+                 <div class="sub-branch">
+                    <h3>Desenvolvimento de Pessoas</h3>
+                    <ul>
+                        <li>- Workshops e Palestras</li>
+                        <li>- Treinamentos Corporativos</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="branch">
+                <h2>Contribuições do Sócio (Execução Técnica)</h2>
+                 <ul>
+                    <li>- Desenvolvimento Web Focado em Conversão</li>
+                    <li>- Automatizações de Processos</li>
+                    <li>- Serviços de Marca (Registro)</li>
+                    <li>- Estratégia Digital (SEO com IA)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
